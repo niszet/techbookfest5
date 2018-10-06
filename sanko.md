@@ -1,3 +1,5 @@
+# 第1章
+
 * niszetのブログ
 
   https://niszet.hatenablog.com/
@@ -11,164 +13,298 @@
   http://www.kyoritsu-pub.co.jp/bookdetail/9784320112438
 
 
-[^r_prog_s]: Rプログラミング本格入門―達人データサイエンティストへの道―\
-http://www.kyoritsu-pub.co.jp/bookdetail/9784320124264
-[^itr_2]: knitr使用時はRStudio環境下ではないため、rstudioapi::versionInfo()を使ってRStudioのバージョンを自動的にドキュメントに埋め込むのは難しそうです。残念。 https://github.com/rstudio/rstudioapi/issues/7
-[^itr_6]: 本書のサポートサイトはこちら！ https://github.com/niszet/techbookfest5
+* Rプログラミング本格入門―達人データサイエンティストへの道―
 
-[^r351_win]: R-3.5.1 for Windows (32/64 bit) https://cran.r-project.org/bin/windows/base/
-[^rstudio_stable]: Download RStudio https://www.rstudio.com/products/rstudio/download/\
-下の方にスクロールしていくとリンクがあります。インストーラーを使用してデフォルトの設定でインストールするのが楽だと思います。
-[^rstudio_prev]: RStudio v1.2.907-1 Preview https://www.rstudio.com/products/rstudio/download/preview/
+  http://www.kyoritsu-pub.co.jp/bookdetail/9784320124264
 
-[^rtools_issue]: 以前はR 3.5.1でエラーとなるissueがありましたが、解決していそうです。\
-https://github.com/r-lib/devtools/issues/1772
+* knitr使用時はRStudio環境下ではないため、rstudioapi::versionInfo()を使ってRStudioのバージョンを自動的にドキュメントに埋め込むのは難しそうです。残念。
 
-[^rtools_path]: Building R for Windows https://cran.r-project.org/bin/windows/Rtools/
+  https://github.com/rstudio/rstudioapi/issues/7
 
-[^pandoc_latest]: https://github.com/jgm/pandoc/releases/tag/2.2.3.2
 
-[^dl_pandoc_crossref]: 本書ではv0.3.2.1を使用しています。 https://github.com/lierdakil/pandoc-crossref/releases/tag/v0.3.2.1
+* 本書のサポートサイト（ここのこと）
 
-[^dl_task_list_lua]: https://github.com/pandoc/lua-filters/blob/master/task-list/task-list.lua
+  https://github.com/niszet/techbookfest5
 
-[^rstudio_git]: RStudioではじめるGitによるバージョン管理 https://qiita.com/uri/items/6b94609f156173ed43ed
+* R-3.5.1 for Windows (32/64 bit) 
+  
+  https://cran.r-project.org/bin/windows/base/
 
-[^git_win]: git for windows https://gitforwindows.org/
+* Download RStudio
 
-[^utyu_bon]:RユーザのためのRStudio［実践］入門\ ―tidyverseによるモダンな分析フローの世界―\
-http://gihyo.jp/book/2018/978-4-7741-9853-8
+  https://www.rstudio.com/products/rstudio/download/\
+
+  下の方にスクロールしていくとリンクがあります。インストーラーを使用してデフォルトの設定でインストールするのが楽だと思います。
+
+* RStudio v1.2.907-1 Preview 
+
+  https://www.rstudio.com/products/rstudio/download/preview/
+
+
+* 以前はR 3.5.1でエラーとなるissueがありましたが、解決していそうです。
+
+  https://github.com/r-lib/devtools/issues/1772
+
+
+* Building R for Windows 
+
+  https://cran.r-project.org/bin/windows/Rtools/
+
+
+* Pandoc 2.2.3.2
+
+  https://github.com/jgm/pandoc/releases/tag/2.2.3.2
+
+
+* 本書ではv0.3.2.1を使用しています。 
+
+  https://github.com/lierdakil/pandoc-crossref/releases/tag/v0.3.2.1
+
+
+* Tast List Lua
+
+  https://github.com/pandoc/lua-filters/blob/master/task-list/task-list.lua
+
+
+* RStudioではじめるGitによるバージョン管理
+
+  https://qiita.com/uri/items/6b94609f156173ed43ed
+
+* git for windows
+
+  https://gitforwindows.org/
+
+
+* RユーザのためのRStudio［実践］入門 ―tidyverseによるモダンな分析フローの世界―
+
+  http://gihyo.jp/book/2018/978-4-7741-9853-8
+
 
 ----
 
+# 第2章
 
-[^Wrd_1]: R Markdownの内部とテンプレート開発 Tokyo.R #61 kazutan
-https://kazutan.github.io/HijiyamaR6/intoTheRmarkdown.html#/
+* R Markdownの内部とテンプレート開発 Tokyo.R #61 kazutan
 
-[^daibutu_chunk]: https://teramonagi.hatenablog.com/entry/20130615/1371303616
-[^yihui_chunk]: http://yihui.name/knitr/options/
+  https://kazutan.github.io/HijiyamaR6/intoTheRmarkdown.html#/
 
-[^ooxml]: http://officeopenxml.com/
-[^officer_github]: https://davidgohel.github.io/officer/
+* R markdown(knitr)パッケージのchunk optionまとめ
 
+  https://teramonagi.hatenablog.com/entry/20130615/1371303616
 
-[^rmd_inline]: https://rmarkdown.rstudio.com/lesson-4.html
+* Chunk options and package options
 
-[^mrkdown_definitive]: R Markdown: The Definitive Guide https://bookdown.org/yihui/rmarkdown/
+  http://yihui.name/knitr/options/
 
-----
+* Office Open XML
 
-[^pdc_1]: Pandoc公式サイト（英語） https://pandoc.org/\ 機能が非常に多く、全容を把握するのは大変…。
-
-
-[^pdc_usrman]: Pandoc ユーザーズガイド\ 日本語版　原著バージョン：1.12.4.2\
-http://sky-y.github.io/site-pandoc-jp/users-guide/
-
-[^pdc_qiita]: 多様なフォーマットに対応！ドキュメント変換ツールPandocを知ろう\
-https://qiita.com/sky_y/items/80bcd0f353ef5b8980ee
+  http://officeopenxml.com/
 
 
-[^pdc_yihui]: "Okay, it is Time to Try Pandoc 2.x Now"\
-https://yihui.name/en/2018/06/time-for-pandoc-2-x/
+* officer package 
+
+  https://davidgohel.github.io/officer/
 
 
+* Inline Code
 
-[^pandoc_arg_qiita]: 2015年のこちらの記事と比較すると、Pandocのバージョンアップでオプションを指定する量は減っています。\
-RStudioの"knit HTML"でPandocに送っている内容\
-https://qiita.com/kazutan/items/eb15a42607f87f57b525
-
+  https://rmarkdown.rstudio.com/lesson-4.html
 
 
+* R Markdown: The Definitive Guide 
 
-[^format_help]: 詳しい挙動はhelpを読んでください。 https://www.rdocumentation.org/packages/base/versions/3.5.1/topics/format
-
-[^skylighting]: https://github.com/jgm/skylighting
-
-
-[^_output_yaml]: Shared Options https://rmarkdown.rstudio.com/markdown_document_format#shared_options
+  https://bookdown.org/yihui/rmarkdown/
 
 ----
-[^word_ryosho2]: ワンストップ！技術同人誌を書こう\
-商業誌版は https://www.amazon.co.jp/dp/B07BY9YWCN/
+# 第3章
+
+* Pandoc公式サイト（英語）
+  
+  https://pandoc.org/
+
+* Pandoc ユーザーズガイド\ 日本語版　原著バージョン：1.12.4.2
+
+  http://sky-y.github.io/site-pandoc-jp/users-guide/
+
+
+* 多様なフォーマットに対応！ドキュメント変換ツールPandocを知ろう
+
+  https://qiita.com/sky_y/items/80bcd0f353ef5b8980ee
+
+
+* "Okay, it is Time to Try Pandoc 2.x Now"
+
+  https://yihui.name/en/2018/06/time-for-pandoc-2-x/
+
+
+* RStudioの"knit HTML"でPandocに送っている内容
+
+  https://qiita.com/kazutan/items/eb15a42607f87f57b525
+
+
+* format関数のhelp
+  
+  https://www.rdocumentation.org/packages/base/versions/3.5.1/topics/format
+
+
+* skylighting
+
+  https://github.com/jgm/skylighting
+
+
+* Shared Options 
+
+  https://rmarkdown.rstudio.com/markdown_document_format#shared_options
+
 
 ----
+# 第4章
 
-[^doc_4]: R Markdown: The Definitive Guide\
-3.1.6 Data frame printing https://bookdown.org/yihui/rmarkdown/html-document.html
+* ワンストップ！技術同人誌を書こう
 
-[^doc_5]: https://github.com/davidgohel/flextable
+  https://www.amazon.co.jp/dp/B07BY9YWCN/
 
-[^niszet_skim_slide]: https://niszet.github.io/TokyoR72LT/TokyoR72LT.html#/
+----
+# 第5章
 
-[^doc_6]: https://github.com/ropensci/skimr
+* R Markdown: The Definitive Guide
+  
+  3.1.6 Data frame printing
+  
+  https://bookdown.org/yihui/rmarkdown/html-document.html
 
-[^flex_table_example]: https://davidgohel.github.io/flextable/articles/examples.html
+
+* flextable package
+
+  https://github.com/davidgohel/flextable
+
+
+* TokyoR 72 LT skimrとsummarytoolsパッケージの紹介
+
+  https://niszet.github.io/TokyoR72LT/TokyoR72LT.html#/
+
+
+* skimr パッケージ
+
+  https://github.com/ropensci/skimr
+
+
+* flextableパッケージのsample
+
+  https://davidgohel.github.io/flextable/articles/examples.html
 
 ---
+# 第6章
+
+* RユーザのためのRStudio［実践］入門 ―tidyverseによるモダンな分析フローの世界―
+
+  http://gihyo.jp/book/2018/978-4-7741-9853-8
+
+* ドキュメント・プレゼンテーション生成
+
+  http://www.kyoritsu-pub.co.jp/bookdetail/9784320123724
 
 
-[^md_ref1]: RユーザのためのRStudio［実践］入門 ―tidyverseによるモダンな分析フローの世界―\
-http://gihyo.jp/book/2018/978-4-7741-9853-8
+* R Markdown入門
 
-[^md_ref2]: ドキュメント・プレゼンテーション生成 http://www.kyoritsu-pub.co.jp/bookdetail/9784320123724
+  https://kazutan.github.io/kazutanR/Rmd_intro.html
 
+* Pandoc User’s Guide\
+ 
+  Pandoc’s Markdown 
 
-[^md_ref3]: R Markdown入門 https://kazutan.github.io/kazutanR/Rmd_intro.html
-
-[^md_1]: Pandoc User’s Guide -- Pandoc’s Markdown https://pandoc.org/MANUAL.html#pandocs-markdown
-
-[^pandoc_ref_jap]: Pandoc ユーザーズガイド 日本語版 http://sky-y.github.io/site-pandoc-jp/users-guide/
-
-[^mkd_shigh]: https://pandoc.org/MANUAL.html#syntax-highlighting
+  https://pandoc.org/MANUAL.html#pandocs-markdown
 
 
-[^pdcug_intlink]: Pandoc User’s Guide Internal links
-https://pandoc.org/MANUAL.html#internal-links
+* Pandoc ユーザーズガイド 日本語版 
+
+  http://sky-y.github.io/site-pandoc-jp/users-guide/
 
 
-[^cref_bookdown]: bookdown: Authoring Books and Technical Documents with R Markdown.\
-2.6 Cross-references https://bookdown.org/yihui/bookdown/cross-references.html
+* Pandoc User’s Guide 
 
-[^pandoc_crossref]: https://github.com/lierdakil/pandoc-crossref/releases
+  Syntax highlighting
 
-[^pandoc_crossref_used]: https://github.com/lierdakil/pandoc-crossref/releases/tag/v0.3.2.1 より windows-ghc84-pandoc22.zip をダウンロードして使用しています。
+  https://pandoc.org/MANUAL.html#syntax-highlighting
+
+
+* Pandoc User’s Guide 
+
+  Internal links
+
+  https://pandoc.org/MANUAL.html#internal-links
+
+
+* bookdown: Authoring Books and Technical Documents with R Markdown.
+
+  2.6 Cross-references
+  
+  https://bookdown.org/yihui/bookdown/cross-references.html
+
+
+* https://github.com/lierdakil/pandoc-crossref/releases
+
+
+* 下記URLより windows-ghc84-pandoc22.zip をダウンロードして使用しています。
+
+  https://github.com/lierdakil/pandoc-crossref/releases/tag/v0.3.2.1 
+
+
 ----
+# 第7章
 
-[^hier_rmd_env]: https://niszet.hatenablog.com/entry/2018/05/16/073000
+* https://niszet.hatenablog.com/entry/2018/05/16/073000
 
-[^rmd_params]: https://niszet.hatenablog.com/entry/2018/05/28/121022
+* https://niszet.hatenablog.com/entry/2018/05/28/121022
 
-[^param_rmd]: https://rmarkdown.rstudio.com/developer_parameterized_reports
+* https://rmarkdown.rstudio.com/developer_parameterized_reports
+
+* https://github.com/pandoc/lua-filters
+
+* コード自体はここにあります。
+
+  https://github.com/pandoc/lua-filters/blob/master/task-list/task-list.lua
 
 
-[^task_list_lua]: https://github.com/pandoc/lua-filters
-[^task_list_lua_code]: コード自体はここにあります。https://github.com/pandoc/lua-filters/blob/master/task-list/task-list.lua
-[^qiita_checkbox]: R Markdownでチェックボックスを使う https://qiita.com/nozma/items/e95c99b4d8af7f664558
-[^graphviz_dl]: Graphviz - Graph Visualization Software
-https://graphviz.gitlab.io/_pages/Download/Download_windows.html
+* R Markdownでチェックボックスを使う 
 
-[^java_dl]: https://java.com/ja/download/
+  https://qiita.com/nozma/items/e95c99b4d8af7f664558
 
-[^puml_download]: http://plantuml.com/download
-[^puml_latest]: 2018/9 時点で plantuml.1.2018.10.jar
+* Graphviz - Graph Visualization Software
 
-[^puml_ref]: http://plantuml.com/
+  https://graphviz.gitlab.io/_pages/Download/Download_windows.html
 
-[^puml_rpkg]: https://github.com/rkrug/plantuml
-[^puml_node]: https://www.npmjs.com/package/node-plantuml
 
-[^node_install]: https://nodejs.org/ja/
-[^v8_cran]: https://github.com/jeroen/v8
+* https://java.com/ja/download/
+
+* http://plantuml.com/download
+
+* 2018/9 時点で plantuml.1.2018.10.jar
+
+* http://plantuml.com/
+
+* https://github.com/rkrug/plantuml
+
+* https://www.npmjs.com/package/node-plantuml
+
+* https://nodejs.org/ja/
+
+* https://github.com/jeroen/v8
 
 ----
-[^citation]: Pandoc User’s Guide Citations
-https://pandoc.org/MANUAL.html#citations
+# 第8章
+
+* Pandoc User’s Guide Citations
+
+  https://pandoc.org/MANUAL.html#citations
 
 
-[^ppt_test]: https://niszet.hatenablog.com/entry/2018/08/20/073000
+* https://niszet.hatenablog.com/entry/2018/08/20/073000
 
-[^here_is_here]: https://uribo.hatenablog.com/entry/2018/01/25/082000
 
-[^customst_docx]: http://pandoc.org/MANUAL.html#custom-styles-in-docx
+* https://uribo.hatenablog.com/entry/2018/01/25/082000
+
+
+* http://pandoc.org/MANUAL.html#custom-styles-in-docx
 
 
