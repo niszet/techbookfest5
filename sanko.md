@@ -234,6 +234,9 @@
 
   https://pandoc.org/MANUAL.html#internal-links
 
+----
+
+# 第7章
 
 * bookdown: Authoring Books and Technical Documents with R Markdown.
 
@@ -250,8 +253,20 @@
   https://github.com/lierdakil/pandoc-crossref/releases/tag/v0.3.2.1 
 
 
+
 ----
-# 第7章
+
+# 第8章
+
+* https://niszet.hatenablog.com/entry/2018/05/16/073000 
+
+* https://rmarkdown.rstudio.com/developer_parameterized_reports
+
+* https://niszet.hatenablog.com/entry/2018/05/28/121022 
+
+----
+
+# 第9章
 
 * https://niszet.hatenablog.com/entry/2018/05/16/073000
 
@@ -279,7 +294,7 @@
 
 * http://plantuml.com/download
 
-* 2018/9 時点で plantuml.1.2018.10.jar
+  2018/9 時点で plantuml.1.2018.10.jar
 
 * http://plantuml.com/
 
@@ -291,8 +306,10 @@
 
 * https://github.com/jeroen/v8
 
+
 ----
-# 第8章
+
+# 第10章
 
 * Pandoc User’s Guide Citations
 
@@ -306,5 +323,3 @@
 
 
 * http://pandoc.org/MANUAL.html#custom-styles-in-docx
-
-
